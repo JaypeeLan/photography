@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- font awesome for fonts -->
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+  <!-- jquery for scroll funtions -->
+  <script src="jquery-3.5.1.min.js"></script>
+  
+
+  <title>Document</title>
+</head>
+<body>
+   <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
+<a href="#" class="navbar-brand m-2"><i class="fa fa-camera-retro" aria-hidden="true"></i></a>
+
+<!-- mobile navbar button -->
+  <button class="navbar-toggler m-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"  data-spy="scroll" data-bs-target="#navScrollspy" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav m-auto" id="navScrollspy">
+    
+    <li class="nav-item">
+      <a href="#section-description" class="nav-link">Description</a>
+    </li>
+    <li class="nav-item">
+      <a href="#section-trailer" class="nav-link">Trailer</a>
+    </li>
+    
+    <li class="nav-item">
+      <a href="#section-features" class="nav-link">Features </a>
+    </li>
+    <li class="nav-item">
+      <a href="#section-pricing" class="nav-link">Pricing </a>
+    </li>
+    <li class="nav-item">
+      <a href="#section-reviews" class="nav-link">Reviews</a>
+    </li>
+  </ul>
+</div>
+  </nav>
+
+  <!-- jumbotron -->
+
+ <section id="section-top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center"> 
+   <div class="container text-center">
+     <h1 class="display-1 text-primary text-uppercase">SnapYa!</h1>
+     <p class="display-4 d-none d-sm-block">Capture every moment</p>
+     <p class="lead">Create stunning photos and videos by using the built-in features for enhancement.</p>
+     <p class="lead">Share your best shots with your friends and the rest of the world instantly.</p>
+     <p><strong>Download now on:</strong></p>
+     <a href="#" class="btn btn-lg btn-primary mx-4 my-2"><i class="fa fa-apple" aria-hidden="true"></i> App Store</a>
+     <a href="#" class="btn btn-lg btn-primary mx-4 my-2"><i class="fa fa-android" aria-hidden="true"></i>Google play Store</a>   
+      </div>
+    </div>
+   </div>
+ </section>
+
+<div class="container">
+<section id="section-description">
+  <h2 class="display-4 text-center">What is SnapYa!?</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores incidunt veritatis, perferendis molestias facere adipisci earum corporis deleniti voluptatibus, laudantium sapiente dolorem repudiandae nostrum fuga ad! Nobis, quidem nostrum..</p>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos dolores recusandae quis ex provident ut?</p>
+</section>
+
+<section id="section-trailer">
+  <h2 class="display-4 text-center">SnapYa! Trailer</h2>
+  <p class="text-center">What our trailer below to learn how SnapYa! works.</p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube.com/embed/sn8KYD1Vco0" frameborder="0" class="embed-responsive-item"></iframe>
+  </div>
+</section>
+
+<!-- features -->
+<section id="section-features">
+<h2 class="display4 text-center">Features</h2>
+<div class="row">
+<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+  <div class="h1"><i class="fa fa-paint-brush mb-4 text-info" aria-hidden="true"></i></div>
+  <h3 class="h4 mb-4 text-center">Enhance your photos</h3>
+<p>Easily enhance your photos with our editing tool, filters and effects</p>
+<a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+  <div class="h1"><i class="fa fa-video-camera mb-4 text-info" aria-hidden="true"></i></div>
+  <h3 class="h4 mb-4 text-center">Also make for videos</h3>
+<p>Easily enhance your photos with our editing tool, filters and effects</p>
+<a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+  <div class="h1"><i class="fa fa-instagram mb-4 text-info" aria-hidden="true"></i></div>
+  <h3 class="h4 mb-4 text-center">Share on instagram</h3>
+<p>Easily enhance your photos with our editing tool, filters and effects</p>
+<a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+</div>
+
+<div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+  <div class="h1"><i class="fa fa-mobile mb-4 text-info" aria-hidden="true"></i></div>
+  <h3 class="h4 mb-4 text-center">Works on all devices</h3>
+<p>Easily enhance your photos with our editing tool, filters and effects</p>
+<a href="#" class="btn btn-sm btn-info mt-auto">Read more...</a>
+</div>
+</div>
+
+</section>
+
+<!-- Plans & Pricing section -->
+<section id="section-pricing">
+  <h2 class="display-4 text-center">Choose your plan</h2> 
+  <div class="row">
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card card-outline-success">
+        <div class="card-header bg-success text-white text-center">
+          <h2>Starter</h2>
+          <h4>Free</h4>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Perfect if you only take photos for fun.</p>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i>Enhance your photos and videos.</li>
+          <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Share on Instagram</li>
+        </ul>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-success btn-lg">Select plan</a>
+        </div>
+      </div>
+    </div>
+
+  <div class="col-12 col-md-4 mb-4">
+    <div class="card card-outline-warning">
+      <div class="card-header bg-warning text-white text-center">
+        <h2>Semi-pro</h2>
+        <h4>N299.9 / month</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Perfect if you're semi-pro photographer.</p>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i>Enhance your photos and videos.</li>
+        <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Share on Instagram</li>
+        <li class="list-group-item"><i class="fa fa-fw fa-cogs" aria-hidden="true"></i>Advanced settings</li>
+      </ul>
+      <div class="card-footer text-center">
+        <a href="#" class="btn btn-warning btn-lg">Select plan</a>
+      </div>
+    </div>
+  </div>
+  
+    <div class="col-12 col-md-4 mb-4">
+      <div class="card card-outline-danger">
+        <div class="card-header bg-danger text-white text-center">
+          <h2>Pro</h2>
+          <h4>N999.9 / month </h4>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Perfect if you're a professional photographer</p>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item"><i class="fa fa-fw fa-paint-brush" aria-hidden="true"></i>Enhance your photos and videos.</li>
+          <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i>Share on Instagram</li>
+          <li class="list-group-item"><i class="fa fa-fw fa-cogs" aria-hidden="true"></i>Advanced settings</li>
+          <li class="list-group-item"><i class="fa fa-fw fa-cloud" aria-hidden="true"></i>Cloud storage</li>
+        </ul>
+        <div class="card-footer text-center">
+          <a href="#" class="btn btn-danger btn-lg">Select plan</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Testimonials -->
+<section id="section-reviews">
+  <h2 class="display-4 text-center">Reviews</h2>
+  <div class="row"> 
+    <div class="col-12 col-md-6 col-xl-3">
+    <blockquote class="blockquote p-3">
+      <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"> </i>This is th best camera app i've ever used. I highly recommend it. <i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+      <footer class="blockquote-footer">Anon <time datetime="2021-01-27T07:15">(January 27 2021 07:15)</time>      
+      </footer>
+    </blockquote>
+    </div>
+    <div class="col-12 col-md-6 col-xl-3">
+    <blockquote class="blockquote p-3">
+      <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"> </i>This is th best camera app i've ever used. I highly recommend it. <i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+      <footer class="blockquote-footer">Anon <time datetime="2021-01-27T07:15">(January 27 2021 07:15)</time>      
+      </footer>
+    </blockquote>
+    </div>
+    <div class="col-12 col-md-6 col-xl-3">
+    <blockquote class="blockquote p-3">
+      <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"> </i>This is th best camera app i've ever used. I highly recommend it. <i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
+      <footer class="blockquote-footer">Anon <time datetime="2021-01-27T07:15">(January 27 2021 07:15)</time>      
+      </footer>
+    </blockquote>
+    </div>
+</div>
+</section>
+
+<!-- newsletter -->
+<section class="bg-secondary">
+  <div class="container">
+<form class="py-5 text-white">
+  <h2 class="text-center">Sign-up for our newsletter</h2>
+    <p>Receive our latest news and offers by signing up to our newsletter.</p>
+      <div class="row"> 
+        <div class="col-12 col-sm-6">
+        <div class="form-group">
+          <label for="input-name" class="sr-only">Your name:</label>
+          <input type="text" class="form-control" placeholder="Name" id="input-name">
+        </div>
+      </div>
+        <div class="col-12 col-sm-6">
+        <div class="form-group">
+          <label for="input-email" class="sr-only">Your email:</label>
+          <input type="email" class="form-control" placeholder="mail@example.com" id="input-email">
+        </div>
+      </div>
+    </div>
+  
+    <div class="form-check">
+      <label for="" class="form-check-label">
+        <input type="checkbox" class="form-check-input" id="input-terms" value="terms">
+        I have read and accepted the <a href="#" data-bs-toggle="modal" data-bs-target="#modal">  terms and conditions.</a>
+      </label>
+    </div>
+    <div class="d-flex justify-content-between">
+      <p>You can unsubscribe from the mailing list any time.</p>
+      <button type="submit" class="btn btn-dark">Sign up</button>
+    </div>
+</form>
+         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick=self.close>
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- <h3>Terms and Conditions</h3> -->
+                <div ng-if="UserInfo.approvedTermsAndConditions || !UserInfo.isAuthenticated">
+                  <ncy-breadcrumb></ncy-breadcrumb>
+                </div>
+                <div class="container">
+                      <form name="tandc" ng-submit="approveTandC()">
+                        <div class="panel panel-default" style="margin-top:20px;">
+                          <div class="panel-body" style="max-height:600px; overflow-y:scroll; background-color:white;">
+                            <div style="text-align:center;">
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, ipsum non consectetur viverra, leo ipsum maximus nunc, luctus dictum dolor felis eget risus. Etiam pharetra, dolor sed pharetra bibendum, diam dui vestibulum justo, viverra lacinia sapien mauris a mauris. Duis elit purus, volutpat vitae tellus vitae, feugiat maximus lectus. Proin viverra sollicitudin consequat. Aliquam id ipsum nisl. Mauris condimentum finibus nulla quis volutpat. Suspendisse vehicula sodales metus, tincidunt finibus ex consectetur non.
+                                </p>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, ipsum non consectetur viverra, leo ipsum maximus nunc, luctus dictum dolor felis eget risus. Etiam pharetra, dolor sed pharetra bibendum, diam dui vestibulum justo, viverra lacinia sapien mauris a mauris. Duis elit purus, volutpat vitae tellus vitae, feugiat maximus lectus. Proin viverra sollicitudin consequat. Aliquam id ipsum nisl. Mauris condimentum finibus nulla quis volutpat. Suspendisse vehicula sodales metus, tincidunt finibus ex consectetur non.
+                                </p>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, ipsum non consectetur viverra, leo ipsum maximus nunc, luctus dictum dolor felis eget risus. Etiam pharetra, dolor sed pharetra bibendum, diam dui vestibulum justo, viverra lacinia sapien mauris a mauris. Duis elit purus, volutpat vitae tellus vitae, feugiat maximus lectus. Proin viverra sollicitudin consequat. Aliquam id ipsum nisl. Mauris condimentum finibus nulla quis volutpat. Suspendisse vehicula sodales metus, tincidunt finibus ex consectetur non.
+                                </p>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, ipsum non consectetur viverra, leo ipsum maximus nunc, luctus dictum dolor felis eget risus. Etiam pharetra, dolor sed pharetra bibendum, diam dui vestibulum justo, viverra lacinia sapien mauris a mauris. Duis elit purus, volutpat vitae tellus vitae, feugiat maximus lectus. Proin viverra sollicitudin consequat. Aliquam id ipsum nisl. Mauris condimentum finibus nulla quis volutpat. Suspendisse vehicula sodales metus, tincidunt finibus ex consectetur non.
+                                </p>
+                                <p>
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo, ipsum non consectetur viverra, leo ipsum maximus nunc, luctus dictum dolor felis eget risus. Etiam pharetra, dolor sed pharetra bibendum, diam dui vestibulum justo, viverra lacinia sapien mauris a mauris. Duis elit purus, volutpat vitae tellus vitae, feugiat maximus lectus. Proin viverra sollicitudin consequat. Aliquam id ipsum nisl. Mauris condimentum finibus nulla quis volutpat. Suspendisse vehicula sodales metus, tincidunt finibus ex consectetur non.
+                                </p>
+                              
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                      </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-light">
+  <div class="container py-3 py-sm-5">
+    <div class="row">
+    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+        <h6>Quick links</h6>
+      <ul class="list-unstyled">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">What's new</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">My account</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+      <h6>Information</h6>
+      <ul class="list-unstyled">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Partners</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">
+      <h6>Follow Us</h6>
+      <ul class="list-unstyled">
+        <li><a href="#"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i>Youtube</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5 p-sm-4">  
+      <h6>Our location</h6>
+        <address>
+          <strong>SnapYa!</strong>
+          Qtr 36, Yabatech Quarters<br>
+          Yaba, Lagos<br>
+          <i class="fa fa-fw fa-phone" aria-hidden="true"></i><span class="sr-only">Telephone:</span><a href="tel:+2348054370764">(234) 805-437-0764</a><br>
+            <i class="fa fa-fw fa-inbox" aria-hidden="true"></i><span class="sr-only">mail:</span> 
+          <a href="mailto:jplaniran01@gmail.com">jplaniran01@gmail.com</a>
+        </address>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-9">
+        <ul class="list-inline">
+          <li class="list-inline-item">&copy; 2021 JP, Inc</li>
+          <li class="list-inline-item">All rights reserved.</li>
+          <li class="list-inline-item"><a href="#" data-bs-target="modal" data-bs-toggle="#modal">Terms of use and privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-3">
+            <div class="dropdown dropup">
+              <button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-fw fa-language" aria-hidden="true"></i> Change languague</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a href="#" class="dropdown-item  px-1">English</a>
+              <a href="#" class="dropdown-item  px-1">Yoruba</a>
+              <a href="#" class="dropdown-item  px-1">Igbo</a>
+              <a href="#" class="dropdown-item  px-1">Hausa</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#" class="go-top">Go top</a>
+</footer>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+<!-- to scroll to sections in the pagfe -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.js" integrity="sha512-vfE8OCUETP038fi2pHsLeJC/5xd48FyLsATJLulbdsCRBXgRWxA+0K9he4GClcPjT24vMJk1mFMFbjYS9J7NpA==" crossorigin="anonymous"></script>
+
+
+<!-- custom javascript -->
+<script src="app.js"></script>
+</body>
+</html>
+
