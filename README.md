@@ -1,2 +1,2 @@
-# Photography landing page with boostrapt 5
+# Photography landing page with bootstrap 5
 [Preview](https://cameophotos.netlify.app/)
